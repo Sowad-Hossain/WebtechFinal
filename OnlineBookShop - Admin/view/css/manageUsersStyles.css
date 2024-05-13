@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 150px;
+  max-width: 500px;
+  position: relative;
+  left: 550px;
+  bottom: 750px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.employees-table,
+.customers-table,
+.managers-table,
+.inventory-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.managers-table th,
+.managers-table td,
+.employees-table th,
+.employees-table td,
+.customers-table th,
+.customers-table td,
+.inventory-table th,
+.inventory-table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.managers-table th,
+.employees-table th,
+.customers-table th,
+.inventory-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.container a {
+  display: block;
+  width: 150px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #20123e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container a:hover {
+  background-color: #40344c;
+}

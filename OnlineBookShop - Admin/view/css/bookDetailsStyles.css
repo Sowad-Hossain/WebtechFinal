@@ -1,0 +1,48 @@
+.container {
+  height: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  bottom: 750px;
+  left: 100px;
+}
+
+.book-details {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.book-details h2 {
+  margin-bottom: 10px;
+}
+
+.book-details p {
+  margin-bottom: 5px;
+}
+a {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #20123e;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s ease;
+  width: 100%;
+}
+
+button:hover {
+  background-color: whitesmoke;
+  color: #20123e;
+  border: 1px solid #20123e;
+}
