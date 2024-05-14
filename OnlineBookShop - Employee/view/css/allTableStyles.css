@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 10px;
+  max-width: 500px;
+  position: relative;
+  left: 450px;
+  bottom: 750px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.order-info-table,
+.order-details-table,
+.customer-ratings-table,
+.customer-reviews-table,
+.profile-table,
+.rating-system-table,
+.salary-sheet-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.order-info-table th,
+.order-info-table td,
+.order-details-table th,
+.order-details-table td,
+.customer-ratings-table th,
+.customer-ratings-table td,
+.customer-reviews-table th,
+.customer-reviews-table td,
+.profile-table th,
+.profile-table td,
+.rating-system-table th,
+.rating-system-table td,
+.salary-sheet-table th,
+.salary-sheet-table td {
+  padding: 8px;
+  text-align: center;
+}
+.order-info-table th,
+.order-details-table th,
+.customer-ratings-table th,
+.customer-reviews-table th,
+.profile-table th,
+.rating-system-table th,
+.salary-sheet-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.container a {
+  display: block;
+  width: 150px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #20123e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container a:hover {
+  background-color: #40344c;
+}
+
+td p {
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
