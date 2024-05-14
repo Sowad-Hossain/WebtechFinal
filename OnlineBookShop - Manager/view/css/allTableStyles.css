@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 10px;
+  max-width: 500px;
+  position: relative;
+  left: 450px;
+  bottom: 250px;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.candidate-table,
+.book-table,
+.employees-table,
+.profile-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.candidate-table th,
+.candidate-table td,
+.book-table th,
+.book-table td,
+.employees-table th,
+.employees-table td,
+.profile-table th,
+.profile-table td {
+  padding: 8px;
+  text-align: center;
+}
+
+.candidate-table th,
+.employees-table th,
+.book-table th,
+.profile-table th {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.container a {
+  display: block;
+  width: 150px;
+  margin-top: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: #20123e;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.container a:hover {
+  background-color: #40344c;
+}
+
+td p {
+  align-items: left;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
+}
+
+.candidate {
+  display: flex;
+  gap: 20px;
+}
